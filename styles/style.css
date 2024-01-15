@@ -1,0 +1,101 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*navigation section styles*/
+.head {
+    display: flex;
+}
+
+.Span {
+    color: #FF5400;
+}
+
+.nav-tittle {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 44px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0)),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 100px auto;
+    padding-top: 50px;
+
+}
+
+.Head-div {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Head-div p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.para {
+    height: 24px;
+    width: 24px;
+    padding: 0 auto;
+}
+
+.search-frame {
+    background-color: #FF5400;
+    color: #FFF
+}
+
+.Header-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Header-tittle {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.Header-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 676px;
+    margin: 0 auto
+}
