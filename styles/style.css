@@ -545,6 +545,15 @@ button {
     text-align: start;
     margin-left: 10px;
 }
+.main-3-image{
+    width:90%;
+}
+.main-3{
+    gap:20px;
+}
+.my-two{
+    width:90%;
+}
 
 
 }
