@@ -1,7 +1,6 @@
 body {
     font-family: 'Mulish', sans-serif;
     margin:0 auto;
-    border: 3px solid red;
 
 }
 
@@ -80,6 +79,8 @@ nav {
     height: 24px;
     width: 24px;
     padding: 0 auto;
+    position: relative;
+    top:8px;
 }
 
 .search-frame {
@@ -116,10 +117,10 @@ nav {
 
 /*banner section style*/
 .banner {
-    border: 3px solid blue;
+    margin: 100px;
     display: flex;
-    ggap: 30px;
     justify-content: space-between;
+    
 }
 
 .banner-tittle {
@@ -153,22 +154,12 @@ nav {
     line-height: 26px;
 
 }
-.banner figure{
-    width: 90%;
-}
-.banner img {
-    mwidth: 540px;
-    height: 550px;
-    wwidth: 100%;
-    width: 100%;
-   
-}
+
 
 .ban-div {
-    width: 90%;
-    height: 100%;
+    width: 50%;
     margin: 0 auto;
-    justify-content: center;
+   
 }
 
 button {
@@ -326,10 +317,39 @@ button {
     line-height: 26px;
 
 }
+/*my section*/
+.My{
+    margin-top: 30px;
+    text-align: center;
+  
+}
+.my-section{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(127, 159, 159);
+    border-radius: 10px;
+    
+}
+.my-one{
+    width: 45%;
+    background-color: rgb(202, 219, 224);
+}
+.my-one p{
+    text-align: center;
+}
+.my-one h2{
+    color:#FF5400
+}
+.my-two{
+    width: 45%;
+}
 
 /*footer style*/
 .foot {
+    height: 350px;
     margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
 }
 
 .tool {
@@ -372,7 +392,7 @@ button {
     .image-2,
     .image-3,
     .main-2-mother,
-    .main-3 {
+    .main-3 ,.my-section{
         flex-direction: column;
         align-items: center;
 
@@ -434,6 +454,7 @@ button {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin: 0;
     }
 
     .banner img {
@@ -446,9 +467,11 @@ button {
         font-weight: 400;
         line-height: 24px;
         width: 335px;
-        margin: 0 auto;
+        text-align: start;
+       
 
     }
+    
 
 
     .banner-tittle {
@@ -458,13 +481,17 @@ button {
         font-weight: 800;
 
     }
+    .kalu{
+        margin-left: 10px;
+    }
 
     .ban-div {
-        margin: 0 auto;
+        margin:0;
     }
 
     .ban-para {
         text-align: start;
+       
     }
 
 
@@ -509,10 +536,15 @@ button {
 
     }
 
+    .my-section{
+        gap:20px;
+    }
 
 
-
-
+.nal{
+    text-align: start;
+    margin-left: 10px;
+}
 
 
 }
