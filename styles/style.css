@@ -9,6 +9,12 @@ body {
     display: flex;
 }
 
+.head img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
 .Span {
     color: #FF5400;
 }
@@ -130,7 +136,8 @@ nav {
     width: 577px;
 
 }
-.ban-para{
+
+.ban-para {
     margin: 0 auto;
     text-align: center;
 }
@@ -216,13 +223,14 @@ button {
 .main-2 {
     margin: 100px auto;
 }
-.main-2-head{
+
+.main-2-head {
     margin: 30px auto;
 }
 
 .main-2-mother {
     display: flex;
-    gap:20px;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -238,7 +246,7 @@ button {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
-    
+
 }
 
 .child {
@@ -247,7 +255,92 @@ button {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: 50%;
-    margin:50px auto;
+    margin: 50px auto;
+}
+
+/*main-3*/
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+
+}
+
+.main-3 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.information input,
+#btn {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.information input {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.main-3 img {
+    width: 672px;
+    height: 422px;
+
+}
+
+.main-3-tittle {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.main-3-para {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+/*footer style*/
+.foot{
+    margin-top: 100px;
+}
+
+.tool {
+    display: flex;
+    justify-content: center;
+}
+
+.tool img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.foot-para {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.foot-end{
+    text-align: center;
 }
 
 
@@ -258,7 +351,9 @@ button {
     nav,
     .image-1,
     .image-2,
-    .image-3,.main-2-mother{
+    .image-3,
+    .main-2-mother,
+    .main-3 {
         flex-direction: column;
         align-items: center;
 
@@ -282,7 +377,7 @@ button {
         padding-top: 10px;
     }
 
-    .Header-tittle{
+    .Header-tittle {
         color: #FFF;
         font-family: Mulish;
         font-size: 22px;
@@ -292,7 +387,7 @@ button {
 
     }
 
-    .Header-para{
+    .Header-para {
         color: #FFF;
         text-align: center;
         font-size: 14px;
@@ -348,33 +443,53 @@ button {
     .ban-div {
         margin: 0 auto;
     }
-    .ban-para{
+
+    .ban-para {
         text-align: start;
     }
-    
+
 
     button {
         margin-left: 20px;
     }
 
     /* main-1 section*/
-    .ban-para{
+    .ban-para {
         text-align: start;
         margin-left: 5px;
     }
+
     .main-1 img {
         width: 100%;
     }
 
     /*main-2*/
-    .cls-1,.cls-2{
+    .cls-1,
+    .cls-2 {
         width: 90%;
         height: 100%;
     }
-    .child{
+
+    .child {
         width: 85%;
     }
-   
+
+    .information {
+        width: 90%;
+        height: 400px;
+    }
+
+    .information input,
+    #btn {
+        width: 280px;
+    }
+
+    .main-3 img {
+        width: 100%;
+        height: 100%;
+
+    }
+
 
 
 
