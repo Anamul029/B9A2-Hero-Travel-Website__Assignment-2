@@ -329,14 +329,14 @@ button {
     justify-content: space-between;
     background-color: rgb(127, 159, 159);
     border-radius: 10px;
-    
 }
 .my-one{
     width: 45%;
     background-color: rgb(202, 219, 224);
 }
 .my-one p{
-    text-align: center;
+    text-align:start;
+    padding:10px;
 }
 .my-one h2{
     color:#FF5400
